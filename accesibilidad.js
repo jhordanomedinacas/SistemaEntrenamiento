@@ -791,7 +791,7 @@
     /* FAB — imagen original */
     if($('#accFab')) return;
     const fab=document.createElement('button');fab.id='accFab';fab.setAttribute('aria-label','Abrir menú de accesibilidad');
-    fab.innerHTML='<img src="/logo-alba.png" alt="Accesibilidad" style="width:78px;height:78px;object-fit:contain;display:block;margin:auto;">';
+    fab.innerHTML='<img src="logo-alba.png" alt="Accesibilidad" style="width:78px;height:78px;object-fit:contain;display:block;margin:auto;">';
     document.body.appendChild(fab);initDraggableFab(fab);
 
     /* Spotlight */
@@ -816,7 +816,7 @@
     <header>
       <div class="acc-header-left">
         <div class="acc-logo-wrap">
-          <img src="/logo-alba.png" alt="Accesibilidad" onerror="this.style.display='none'">
+          <img src="logo-alba.png" alt="Accesibilidad" onerror="this.style.display='none'">
         </div>
         <div class="acc-title">
           <h3>Menú de Accesibilidad</h3>
@@ -1040,7 +1040,7 @@
       <a href="${POWERED_BY_LINK}" target="_blank" rel="noopener" id="acc-powered-link">
         <span>Powered by</span>
         <strong>Alba</strong>
-        <img src="/logo-alba.png" alt="" style="height:22px;width:auto;object-fit:contain;display:block;" onerror="this.style.display='none'">
+        <img src="logo-alba.png" alt="" style="height:22px;width:auto;object-fit:contain;display:block;" onerror="this.style.display='none'">
         <i class="fas fa-external-link-alt" style="font-size:9px;"></i>
       </a>
       <button class="acc-btn primary" id="openSearchBtn2"><i class="fas fa-search"></i> Ctrl+K</button>
